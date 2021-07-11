@@ -21,16 +21,20 @@ module.exports = {
       },
       items: [
         {
-          to: '/user/guide',
+          to: 'user/guide',
           label: 'User',
           position: 'left',
           activeBaseRegex: `/user/`,
         },
         {
-          to: '/developer/guide',
+          to: 'developer/guide',
           label: 'Developer',
           position: 'left',
           activeBaseRegex: `/developer/`,
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
       ]
     },
@@ -74,4 +78,10 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      'en', 'ja'
+    ]
+  }
 };
