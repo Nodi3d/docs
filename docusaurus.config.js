@@ -53,7 +53,7 @@ module.exports = {
           path: 'user',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Nodi3d/nodi-docs/main/',
+            'https://github.com/Nodi3d/nodi-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,6 +69,8 @@ module.exports = {
         path: 'developer',
         routeBasePath: 'developer',
         sidebarPath: require.resolve('./sidebars.js'),
+        editUrl:
+          'https://github.com/Nodi3d/nodi-docs/edit/main/',
       },
     ],
   ],
