@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Data flow
+# Data Flow
 
 ## Disconnect edges
 

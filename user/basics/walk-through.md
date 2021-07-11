@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Walk through tutorial
+# Walk Through Tutorial
 
 Here's a quick example that shows how to use Nodi.
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Data types
+# Data Types
 
 Nodi has various data types, and the data type accepted depends on the IO of the node.
 

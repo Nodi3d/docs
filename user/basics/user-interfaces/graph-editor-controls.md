@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Graph editor controls
+# Graph Editor Controls
 
 ## Pan
 Drag with right click, or Hold shift & drag with left click

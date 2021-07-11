@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Viewer controls
+# Viewer Controls
 
 ## Camera
 | Interface | operation |
