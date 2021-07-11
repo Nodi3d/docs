@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Nodi',
   tagline: '',
-  url: 'https://nodi3d.com',
-  baseUrl: '/',
+  url: 'https://__userName__.github.io',
+  baseUrl: '/nodi-docs/',
+  projectName: 'nodi-docs',
+  organizationName: 'Nodi3d',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Nodi', // Usually your GitHub org/user name.
-  projectName: 'Nodi', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Nodi',
