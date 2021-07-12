@@ -18,6 +18,14 @@
   --ifm-heading-font-weight: normal;
 }
 
+footer.footer {
+  padding: 12px 18px !important;
+}
+
+.footer__copyright {
+  font-size: 0.85rem;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;

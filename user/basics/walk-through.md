@@ -121,7 +121,7 @@ Then, the Sphere closer to the Attractor can be deformed to be smaller.
 ## Let's control the position with the slider
 
 Next, let's make it possible to control the position of the attractor with the slider. 
-Place two **UINumberSlider** nodes to change the X and Z positions of the attractor. 
+Place two **UINumberSlider** nodes to change the X and Y positions of the attractor. 
 Open the Inspector for each UINumberSlider and set the minimum value to 0 and the maximum value to 1.
 
 ![UINumberSlider](/img/user/basics/walk-through/a4290ca91d4853463444601c27b35540.png)

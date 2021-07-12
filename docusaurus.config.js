@@ -39,7 +39,6 @@ module.exports = {
       ]
     },
     footer: {
-      style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Nodi. Built with Docusaurus.`,
     },
     prism: {
