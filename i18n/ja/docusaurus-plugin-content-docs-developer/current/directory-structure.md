@@ -31,9 +31,9 @@ Nodiのコアとなるジオメトリ処理やノードベースエディター�
 │               ├── primitive: 複素数やNDomainなどの基本的なクラス群　
 │           ├── misc: インターフェイスやイベントの定義など
 │           ├── nodes: 全てのノードのクラスファイル
-|       ├── editor
-|       ├── service
-│       └── viewer
+|       ├── editor: エディタUIの実装
+|       ├── service: プロジェクトやユーザ管理などのサービスに関わる実装
+│       └── viewer: ビューワUIの実装
 ├── components
 ├── pages
 .
