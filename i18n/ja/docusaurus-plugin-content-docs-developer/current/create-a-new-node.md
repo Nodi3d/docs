@@ -17,7 +17,7 @@ Nodeを所属させたいフォルダ以下に作成するか、もしくは新�
 
 ここではテストのため、**examples**フォルダを作成し、その下に**Example.ts**という名前で作成します。
 
-![フォルダ作成](/img/developer/create-a-new-node/ExamplesFolder.png)
+![ExamplesFolder](/img/developer/create-a-new-node/ExamplesFolder.png)
 
 ## Nodeクラスファイルを定義する
 
