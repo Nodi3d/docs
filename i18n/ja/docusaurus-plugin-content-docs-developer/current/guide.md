@@ -18,4 +18,4 @@ yarn test // jestによるテストを実行する
 
 ```
 
-- [Githubリポジトリ](https://github.com/Nodi3d/Nodi)
+- [Githubリポジトリ](https://github.com/Nodi3d/nodi)

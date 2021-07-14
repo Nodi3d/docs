@@ -18,4 +18,4 @@ yarn test // executing test by jest framework
 
 ```
 
-- [Repository](https://github.com/Nodi3d/Nodi)
+- [Repository](https://github.com/Nodi3d/nodi)

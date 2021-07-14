@@ -17,7 +17,7 @@ If the sample Firebase project does not work, or if you want to use your own Fir
 
 Clone the Nodi repository in local.
 
-https://github.com/Nodi3d/Nodi
+https://github.com/Nodi3d/nodi
 
 ### Set up the environment variable file.
 

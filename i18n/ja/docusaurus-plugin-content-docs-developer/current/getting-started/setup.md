@@ -16,7 +16,7 @@ Nodiでは認証、データベース、ストレージなど各種バックエ�
 
 Nodiのリポジトリをローカルにcloneします。
 
-https://github.com/Nodi3d/Nodi
+https://github.com/Nodi3d/nodi
 
 ### 環境変数ファイルの設定
 
