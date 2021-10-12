@@ -21,13 +21,13 @@ https://github.com/Nodi3d/nodi
 
 ### Set up the environment variable file.
 
-Rename **.firebase.env.example.js** in the root of the repository to **.firebase.env.js**.
+Rename **.firebase.env.example.js** in the web folder to **.firebase.env.js**.
 
 > If you want to use your own Firebase project, please check [Firebase Settings](/developer/getting-started/firebase).
 
 ### Solving dependency and Build
 
-In this project, [NuxtJS](https://nuxtjs.org/) is used as the main framework, and the following commands are used to resolve dependencies, start up locally, build, etc.
+In nodi3d.com, [NuxtJS](https://nuxtjs.org/) is used as the main framework, and the following commands under the web folder are used to resolve dependencies, start up locally, build, etc.
 
 ```bash
 # install dependencies

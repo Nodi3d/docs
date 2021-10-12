@@ -8,7 +8,7 @@ sidebar_position: 4
 
 ## Nodeクラスファイルを追加する
 
-**assets/scripts/core/nodes**フォルダ以下ですべてのNodeクラスを管理しています。
+**core/src/nodes**フォルダ以下ですべてのNodeクラスを管理しています。
 
 フォルダ構成がそのままNodeを検索する際のディレクトリ構造に対応しているので、
 Nodeを所属させたいフォルダ以下に作成するか、もしくは新しいフォルダを作成し、その下にクラスファイルを作成してください。　
@@ -27,7 +27,7 @@ Nodeを所属させたいフォルダ以下に作成するか、もしくは新�
 
 ```typescript
 
-export default class Example extends NodeBase {
+export class Example extends NodeBase {
 
   // エディタ上のNodeViewに表示される名前
   public get displayName(): string {
@@ -59,23 +59,29 @@ export default class Example extends NodeBase {
 
 ## Nodeのインデックスに登録する
 
-Nodeの定義が終了したら、以下のコマンドでNodeのインデックスを登録します。
+Nodeの定義が終了したら、以下のコマンドでNodeのインデックスを登録し、@nodi/coreをビルドします。
 
 ```bash
-
-yarn barrel # assets/scripts/core/nodes/index.tsファイルに追加したファイルのパスを登録する
-
+# coreフォルダ以下で下記のコマンドを実行する
+yarn barrel # src/nodes/index.tsファイルに追加したファイルのパスを登録する
+yarn build # webpackでbundleファイルを生成する
 ```
 
 ## Nodeを試す
 
 以上までの手順で追加したNodeがエディタ上で選べるようになるので動作を確認することができます。
 
+エディタを立ち上げるには、webフォルダ以下で下記のコマンドを実行します。
+```bash
+# webフォルダ以下で下記のコマンドを実行する
+yarn dev
+```
+
 ![ExampleNode](/img/developer/create-a-new-node/ExampleNode.gif)
 
 ## Nodeの説明文を書く
 
-**assets/json/description.json**で各Nodeの説明文を管理しています。
+**web/assets/json/description.json**で各Nodeの説明文を管理しています。
 
 ここに説明を追加すると、Node Inspectorや説明画面(nodi3d.com/nodes/[Node名])に文章を表示することができます。
 

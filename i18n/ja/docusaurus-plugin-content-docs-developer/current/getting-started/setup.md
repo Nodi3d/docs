@@ -20,15 +20,18 @@ https://github.com/Nodi3d/nodi
 
 ### 環境変数ファイルの設定
 
-リポジトリのルートに含まれる**.firebase.env.example.js**を**.firebase.env.js**にリネームします。
+webフォルダ直下に含まれる**.firebase.env.example.js**を**.firebase.env.js**にリネームします。
 
 > もし自前のFirebaseプロジェクトを使いたい場合は[Firebaseの設定](/developer/getting-started/firebase)を確認してください。
 
 ### 依存関係の解決とビルド
 
-このプロジェクトでは[NuxtJS](https://nuxtjs.org/)を主なフレームワークとして使用していて、以下のコマンドで依存関係の解決やローカルでの立ち上げ、ビルド等を行います。
+nodi3d.comでは[NuxtJS](https://nuxtjs.org/)を主なフレームワークとして使用していて、
+webフォルダ直下で以下のコマンドを実行することで依存関係の解決やローカルでの立ち上げ、ビルド等を行います。
 
 ```bash
+# webフォルダ以下に移動して以下のコマンドを実行
+
 # install dependencies
 $ yarn install
 

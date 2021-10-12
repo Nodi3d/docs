@@ -8,7 +8,7 @@ This section describes the steps to create a new Node.
 
 ## Create a Node class file
 
-All Node classes are managed under **assets/scripts/core/nodes** folder.
+All Node classes are managed under **core/src/nodes** folder.
 
 The folder structure corresponds directly to the directory structure when searching for Nodes, so
 You can either create the Node under the folder you want it to belong to, or create a new folder and create the class files under it.　
@@ -27,7 +27,7 @@ We'll implement it by extending **NodeBase**, which is the base class for all No
 
 ```typescript
 
-export default class Example extends NodeBase {
+export class Example extends NodeBase {
 
   // Name to be displayed in the NodeView in the editor
   public get displayName(): string {
@@ -59,11 +59,12 @@ export default class Example extends NodeBase {
 
 ## Registering the Node index
 
-When you have finished defining the Node, you can register the Node index with the following command.
+When you have finished defining the Node, register the Node index with the following command and build @nodi/core.
 
 ```bash
-
-yarn barrel # Register the path of the file you added to assets/scripts/core/nodes/index.ts file.
+# Execute the following command under the core folder
+yarn barrel # Register the path of the file you added to core/src/index.ts file.
+yarn build # Generate bundle files with webpack
 
 ```
 
@@ -71,11 +72,17 @@ yarn barrel # Register the path of the file you added to assets/scripts/core/nod
 
 The Node you added in the above steps can be selected in the editor, so you can see how it works.
 
+To launch the editor, execute the following command under the web folder.
+```bash
+# Execute a following command under the web folder
+yarn dev
+```
+
 ![ExampleNode](/img/developer/create-a-new-node/ExampleNode.gif)
 
 ## Write a description of the Node
 
-We manage the description of each Node in **assets/json/description.json**.
+We manage the description of each Node in **web/assets/json/description.json**.
 
 If you add a description here, you can display the text in the Node Inspector or in the description screen (nodi3d.com/nodes/[Node name]).
 
