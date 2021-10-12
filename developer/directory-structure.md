@@ -35,7 +35,7 @@ It manages core implementations such as geometry processing and node graphs.
 ├─ test: Test code by jest
 ├─ types: Type definition file
 ├─ wasm: WebAssembly module by Rust
-````
+```
 
 ## @nodi/web
 
