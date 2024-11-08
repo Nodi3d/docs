@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Nodi Developer's Guide
 
+*The version covered in this document is now deprecated. Nodi is currently developing Version 2, which can be accessed here: [v2.nodi3d.com](https://v2.nodi3d.com).*
+
 This document describes the information you need to get involved in the development of Nodi.
 
 ## Contributing
