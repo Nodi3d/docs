@@ -1,5 +1,9 @@
 # Nodi docs
 
+*This version of the Nodi is deprecated. Nodi is currently developing Version 2, which can be accessed here: [v2.nodi3d.com](https://v2.nodi3d.com).*
+
+---
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
